@@ -266,7 +266,12 @@ body:has(a:hover) #cursor-follower,body:has(button:hover) #cursor-follower{width
   #cursor,#cursor-follower{display:none}
 }
 @media(max-width:420px){
-  .hero-name{font-size:3rem}
+   .hero-name{
+  font-size:1.8rem;
+  white-space:normal;
+  word-break:break-word;
+  letter-spacing:0.02em;
+}
   .proj-card{padding:1.5rem}
   .info-row{grid-template-columns:70px 1fr}
 }
